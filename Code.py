@@ -14,7 +14,7 @@ def generate_account_number():
     return acc_no
 
 def generate_otp():
-    return random.randint(1000000, 9999999)
+    return random.randint(100000, 999999)
 
 # ----- Bank Account Class -----
 class BankAccount:
