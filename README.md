@@ -1,81 +1,79 @@
-**BANK MANAGEMENT SYSTEM**
+**🏦 Bank Management System (Python + Tkinter GUI)**
 
-A simple Bank Management System built in Python that supports User and Admin modes.
-Users can create accounts, log in, deposit, withdraw, and check details. Admins can view all accounts, delete accounts, and check the total balance of the bank. 
+A Bank Management System with a clean and interactive Tkinter-based GUI, supporting User and Admin modes.
+Users can easily create accounts, log in, deposit, withdraw, and check account details.
+Admins can manage accounts, view balances, and monitor the bank’s overall performance.
 
 **✨ Features**
 
 **👤 User Mode**
 
-Create a new bank account with name, password, and initial balance.
+Create a new bank account with name, password, and initial balance
 
-Login securely with username and password.
+Secure login with username and password
 
-Deposit and withdraw money.
+Deposit and withdraw money through simple forms
 
-View account details.
+View account details in a clean interface
 
-Logout after transactions.
+Logout after transactions
 
 **🛡️ Admin Mode**
 
-Login with Admin username & password.
+Login with Admin username & password
 
-View all accounts in the bank.
+View all accounts in the bank
 
-Delete any account using the account number.
+Delete any account using its account number
 
-Check total bank balance.
+Check total bank balance
 
 **🖥️ Tech Stack**
 
 Language: Python 3
 
-Libraries:
+**Libraries:**
 
-random → For generating account numbers
+tkinter → GUI
 
-time → For small delays to make the experience realistic
+json → Data storage
+
+random → Account number generation
+
+time → Transaction delay effects
 
 **🚀 How to Run**
 
-Clone this repository or download the .py file.
+Clone this repository:
 
-Open a terminal or IDE and run:
-python bank_system.py
-Follow the on-screen menu to Login as User or Admin.
+_git clone https://github.com/yourusername/Bank-Management-System.git_
+
+Open the folder and run:
+_python bank_system_gui.py_
+
+Use the on-screen menu to Login as User or Admin
 
 **🔑 Default Admin Credentials**
 
 Username: admin
+
 Password: 1234
 
-**📸 Sample Output**
-
-WELCOME TO BANK 
-
-Login as:
- 1. User
- 2. Admin
- 3. Exit
-Enter choice: 1
-
-User Menu:
- 1. Create Account
- 2. Login
- 3. Exit User Menu
 
 **📌 Future Improvements**
 
-Encrypt user passwords for better security.
+Encrypt stored passwords for extra security
 
-Add multiple users logged in at the same time.
+Support multiple simultaneous logins
 
-Generate admin reports like Top 3 richest users.
+Add transaction history for each account
 
-Save accounts to a file or database for persistence.
+Switch to a real database like SQLite or MySQL
+
+Modernise UI with custom Tkinter themes
 
 **🤝 Contributing**
 
-Feel free to fork this project and improve it! Pull requests are welcome.
+Fork the repo, make your changes, and create a pull request.
+Suggestions and contributions are always welcome!
 
