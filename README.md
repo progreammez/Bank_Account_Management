@@ -46,7 +46,7 @@ time → Transaction delay effects
 
 Clone this repository:
 
-_git clone https://github.com/yourusername/Bank-Management-System.git_
+_git clone https://github.com/progreammez/Bank-Management-System.git_
 
 Open the folder and run:
 _python bank_system_gui.py_
